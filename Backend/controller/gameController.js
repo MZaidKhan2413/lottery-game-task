@@ -28,7 +28,7 @@ const updateGame = async (req, res)=>{
     }
 
     const grid = user === "user1" ? game.user1Grid : game.user2Grid;
-    const cuts = user === "user1" ? game.user1cuts : game.user2Cuts;
+    const cuts = user === "user1" ? game.user1Cuts : game.user2Cuts;
 
     grid.forEach((row, rowIndex)=>{
         row.forEach((cell, cellIndex) => {
