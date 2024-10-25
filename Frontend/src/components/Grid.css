@@ -1,0 +1,26 @@
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.game-grid-input {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+.game-grid-input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+.game-grid-input:disabled {
+    background-color: #eee;
+}

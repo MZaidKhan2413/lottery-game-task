@@ -1,0 +1,26 @@
+.game-grid-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.game-grid-container h2 {
+    margin-bottom: 20px;
+    margin-left: 670px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+}
+
+.user {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    color: #666;
+}
+
+.winner {
+    margin: 20px auto;
+}
